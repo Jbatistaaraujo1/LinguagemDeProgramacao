@@ -67,6 +67,10 @@ public class ProgramaTamanhos {
                 indice = indice + 1;
             }
         }
+        // Exibir o resultado
+        System.out.println("Primeiro: " + Arrays.toString(vetorN));
+        System.out.println("Segundo: " + Arrays.toString(vetorM));
         System.out.println(Arrays.toString(vetorIntercalacao));
+
         }
     }
